@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private float playerSpeed = 10.0f;
-    private float jumpForce = 5.0f;
+    private float jumpForce = 7.0f;
 
     private bool isGrounded;
     private Rigidbody rb;

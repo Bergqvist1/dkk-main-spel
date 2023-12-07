@@ -16,16 +16,18 @@ public class SpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timeValue < 5)
+        
+      timeValue += Time.deltaTime;
+        if(timeValue >= 5)
         {
-            timeValue += Time.deltaTime;
-            
-            
+          Instantiate(Barrel, transform.position, Quaternion.identity);
+          timeValue = 0;
         }
-        else if(timeValue == 5)
-            {
-                Instantiate(Barrel, transform.position, Quaternion.identity);
-            }
+
+        
+            
+        
+        
     }
 
    

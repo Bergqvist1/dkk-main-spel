@@ -15,4 +15,6 @@ public class MainMeny : MonoBehaviour
         Application.Quit();
         Debug.Log("Spelaren har slutat spela");
     }
+
+    
 }
