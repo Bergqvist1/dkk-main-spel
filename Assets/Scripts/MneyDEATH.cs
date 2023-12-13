@@ -7,6 +7,6 @@ public class MneyDEATH : MonoBehaviour
 {
     public void Tillbaka()
     {
-        SceneManager.LoadScene(MainMeny);
+        SceneManager.LoadScene(0);
     }
 }
