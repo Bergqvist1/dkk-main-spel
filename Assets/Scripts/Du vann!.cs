@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
+using UnityEngine.SceneManagement;
 
-public class ScoreAdder : MonoBehaviour
+public class DuVann : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,17 +11,17 @@ public class ScoreAdder : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Player")
-        {
-            ScoreManager.instance.AddPoint();
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider other) 
+    {
+        if(other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }

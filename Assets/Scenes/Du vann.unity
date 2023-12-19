@@ -443,8 +443,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279501055
-  m_fontColor: {r: 1, g: 0, b: 0.0790658, a: 1}
+    rgba: 4294902272
+  m_fontColor: {r: 0, g: 0.007843138, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 1345728968}
   - component: {fileID: 1345728967}
   m_Layer: 0
-  m_Name: 'Du dog meny '
+  m_Name: 'Du vann meny '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,8 +817,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279173375
-  m_fontColor: {r: 1, g: 0, b: 0.05830717, a: 1}
+    rgba: 4294902272
+  m_fontColor: {r: 0, g: 0.007843138, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 1794807243}
   - component: {fileID: 1794807242}
   m_Layer: 0
-  m_Name: Du dog text
+  m_Name: Du vann text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,8 +1065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -71, y: 224}
-  m_SizeDelta: {x: 500, y: 200}
+  m_AnchoredPosition: {x: -178, y: 177}
+  m_SizeDelta: {x: 625, y: 275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794807242
 MonoBehaviour:
@@ -1088,7 +1088,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Din underg\xE5ng \xE4r tidl\xF6s.\nSpela igen! \n\u2193\u2193\u2193"
+  m_text: "Grattis du besegrade donkey kong och hans tunnor och r\xE4ddade prinsessan!\nSpela
+    igen eller avsluta spelet! \u2193\u2193\u2193"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1097,8 +1098,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190847
-  m_fontColor: {r: 1, g: 0.00841237, b: 0, a: 1}
+    rgba: 4294902272
+  m_fontColor: {r: 0, g: 0.008023739, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1151,7 +1152,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -128.8445, w: 0}
+  m_margin: {x: 2.2955933, y: 0, z: -309.89722, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
